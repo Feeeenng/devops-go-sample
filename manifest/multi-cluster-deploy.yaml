@@ -9,7 +9,8 @@ spec:
   placement:
     clusters:
       - name: host
-      - name: $MEMBER_CLUSTER_NAME
+      - name: $MEMBER_DEV_CLUSTER_NAME
+      - name: $MEMBER_PRO_CLUSTER_NAME
   template:
     metadata:
       labels:
